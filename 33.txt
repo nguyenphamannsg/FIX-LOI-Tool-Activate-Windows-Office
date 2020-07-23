@@ -1,0 +1,6 @@
+UPDATE TOOL VERSION 3.4 ( bản fix lỗi )
+================================================================
+HIỆN TẠI CHƯA CÓ BẢN UPDATE VERSION 3.4 ( bản fix lỗi ) , BẠN VUI LÒNG CHECK FOR UPDATE HÀNG TUẦN ĐỂ NHẬN ĐƯỢC BẢN UPDATE MỚI NHẤT 
+ĐỂ ĐƯỢC TRẢI NGHIỆM TOOL TỐT NHẤT , XIN CẢM ƠN
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+COPYRIGHT BY NGUYENPHAMAN-LDSSK-BECONAM-TRANVINHTRUNG
