@@ -1,0 +1,10 @@
+           ======================Tool Activate Windows-Office=================================
+           ===============================Windows=============================================
+           [1] Kích Hoạt bản quyền Windows   | [2] Nâng cấp từ Windows 10 Home lên Windows 10 pro
+           [3] Gỡ Key Windows                | [4] Khôi phục lại bản quyền đã sao lưu
+           ===============================Office==============================================
+           [5] Kích hoạt bản quyền Office    | [6] Gỡ Key Office
+                           [7] Khôi phục lại bản quyền đã sao lưu
+           ================================Other================================================
+           [8] Check for Update              | [9] Góp ý để tool được hoàn thiện
+                                       [A] Thoát
