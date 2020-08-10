@@ -1,4 +1,8 @@
 hiện tại tool còn lỗi
 mong mọi người chịu khó
 update 2 lần 1 tuần để nhận được bản mới nhất 
-xin cảm ơn :(
+xin cảm ơn :)
+Những edit mới :
+-fix lỗi get CID
+- Tổng hợp lại thành 1 tool 1
+- Tối ưu code
