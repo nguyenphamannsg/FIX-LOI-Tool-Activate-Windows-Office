@@ -73,7 +73,7 @@ Cscript slmgr.vbs /ipk %k1%
 @echo off
 @mode con: cols=100 lines=30
 for /f "tokens=3" %%i in ('cscript slmgr.vbs /dti') do set MyIID=%%i
-for /f "tokens=*" %%b in ('powershell -Command "$req = [System.Net.WebRequest]::Create('https://huyphung.com/public-api/get-cid?iid=%MyIID%&token=gAAAAABfGobY9lyp_7XAz5FgrJSaf--0EUizjmFUkl2eI1EhC994zZGlkXpYMBrtJMJ_t0hVIB_KqCT7A1R4v-BNW_NOWwezv7IprnhIO4lceYJxAusOL-E=');$resp = New-Object System.IO.StreamReader $req.GetResponse().GetResponseStream(); $resp.ReadToEnd()"') do set ACID=%%b
+for /f "tokens=*" %%b in ('powershell -Command "$req = [System.Net.WebRequest]::Create('https://activationtool.com/public-api/get-cid?iid=%MyIID%&token=gAAAAABfGobY9lyp_7XAz5FgrJSaf--0EUizjmFUkl2eI1EhC994zZGlkXpYMBrtJMJ_t0hVIB_KqCT7A1R4v-BNW_NOWwezv7IprnhIO4lceYJxAusOL-E=');$resp = New-Object System.IO.StreamReader $req.GetResponse().GetResponseStream(); $resp.ReadToEnd()"') do set ACID=%%b
 set CID=%ACID:~1,48%
 echo %CID% 
 echo Nhấn phím bất kì để tiếp tục..
@@ -221,7 +221,7 @@ cscript OSPP.VBS /inpkey:%key%
 @echo.
 @echo 3. Đang làm tất cả công việc còn lại..
 for /f "tokens=8" %%i in ('cscript ospp.vbs /dinstid') do set MyIID=%%i
-for /f "tokens=*" %%b in ('powershell -Command "$req = [System.Net.WebRequest]::Create('https://huyphung.com/public-api/get-cid?iid=%MyIID%&token=gAAAAABfGobY9lyp_7XAz5FgrJSaf--0EUizjmFUkl2eI1EhC994zZGlkXpYMBrtJMJ_t0hVIB_KqCT7A1R4v-BNW_NOWwezv7IprnhIO4lceYJxAusOL-E=');$resp = New-Object System.IO.StreamReader $req.GetResponse().GetResponseStream(); $resp.ReadToEnd()"') do set ACID=%%b
+for /f "tokens=*" %%b in ('powershell -Command "$req = [System.Net.WebRequest]::Create('https://activationtool.com/public-api/get-cid?iid=%MyIID%&token=gAAAAABfGobY9lyp_7XAz5FgrJSaf--0EUizjmFUkl2eI1EhC994zZGlkXpYMBrtJMJ_t0hVIB_KqCT7A1R4v-BNW_NOWwezv7IprnhIO4lceYJxAusOL-E=');$resp = New-Object System.IO.StreamReader $req.GetResponse().GetResponseStream(); $resp.ReadToEnd()"') do set ACID=%%b
 set CID=%ACID:~1,48%
 echo CID cua ban %CID% 
 echo nhấn phím bất kì để tiếp tục..
@@ -270,7 +270,7 @@ cscript OSPP.VBS /inpkey:%key%
 @echo.
 @echo 3. Đang làm tất cả công việc còn lại
 for /f "tokens=8" %%i in ('cscript ospp.vbs /dinstid') do set MyIID=%%i
-for /f "tokens=*" %%b in ('powershell -Command "$req = [System.Net.WebRequest]::Create('https://huyphung.com/public-api/get-cid?iid=%MyIID%&token=gAAAAABfGobY9lyp_7XAz5FgrJSaf--0EUizjmFUkl2eI1EhC994zZGlkXpYMBrtJMJ_t0hVIB_KqCT7A1R4v-BNW_NOWwezv7IprnhIO4lceYJxAusOL-E=');$resp = New-Object System.IO.StreamReader $req.GetResponse().GetResponseStream(); $resp.ReadToEnd()"') do set ACID=%%b
+for /f "tokens=*" %%b in ('powershell -Command "$req = [System.Net.WebRequest]::Create('https://activationtool.com/public-api/get-cid?iid=%MyIID%&token=gAAAAABfGobY9lyp_7XAz5FgrJSaf--0EUizjmFUkl2eI1EhC994zZGlkXpYMBrtJMJ_t0hVIB_KqCT7A1R4v-BNW_NOWwezv7IprnhIO4lceYJxAusOL-E=');$resp = New-Object System.IO.StreamReader $req.GetResponse().GetResponseStream(); $resp.ReadToEnd()"') do set ACID=%%b
 set CID=%ACID:~1,48%
 echo CID cua ban %CID% 
 @echo 5. Đang kích hoạt bản quyền
